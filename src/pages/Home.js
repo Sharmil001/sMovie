@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import HeroSlide from '../components/hero-slide/heroSlide'
 import MovieList from '../components/movie-list/MovieList'
 
-import { category, movieType, tvType } from '../api/tmdbApi';
+import { category, movieType } from '../api/tmdbApi';
 
 const Home = () => {
     return (
