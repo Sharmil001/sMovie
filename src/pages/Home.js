@@ -32,16 +32,6 @@ const Home = () => {
                     <MovieList category={category.movie} type={movieType.top_rated}/>
                 </div>
 
-                <div className="section mb-3">
-                    <div className="section__header mb-2">
-                        <h2>Upcoming Movies</h2>
-                        <Link to="/movie">
-                            <OutlineButton className="small">View more</OutlineButton>
-                        </Link>
-                    </div>
-                    <MovieList category={category.movie} type={movieType.upcoming}/>
-                </div>
-
                 {/* tv */}
                 <div className="section mb-3">
                     <div className="section__header mb-2">
